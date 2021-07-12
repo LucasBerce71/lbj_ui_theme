@@ -1,8 +1,9 @@
 import React from 'react';
+import Box from './components/UI/Box';
 
 const App: React.FC = () => {
   return (
-    <div></div>
+    <Box as="h1" color="orange">LBJ UI THEME</Box>
   );
 }
 
